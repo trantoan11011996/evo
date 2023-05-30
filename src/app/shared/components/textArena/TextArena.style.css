@@ -1,0 +1,12 @@
+.text-arena {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  transition: all ease 0.5s;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.text-arena:focus {
+  border: 1px solid black;
+}

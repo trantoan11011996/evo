@@ -3,12 +3,12 @@ import { initReactI18next } from "react-i18next";
 import English from "../i18n/en.json";
 import Vietnamese from "../i18n/vi.json";
 import Backend from "i18next-http-backend";
-
+import { useSelector } from "react-redux";
+import { RootState } from "../app/store/store";
 let getLocalLang = localStorage.getItem("lang");
 
 if (!getLocalLang) {
   getLocalLang = "vie";
-  console.log("????");
 }
 const resources = {
   eng: {

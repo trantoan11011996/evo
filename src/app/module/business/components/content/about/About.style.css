@@ -1,0 +1,65 @@
+.container-about {
+  margin-top: 120px;
+  height: 706px;
+  background-image: url("../../../../../../../public/images/header/banner-1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 20px 0 20px;
+}
+
+.header-element-about > h1 {
+  color: white;
+}
+.desc-element-about > p {
+  color: white;
+}
+.about-list {
+  max-width: 1100px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.item-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.item-about > p {
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.bottom-about {
+  margin-top: 60px;
+}
+.image-item-about > img {
+}
+.item-about:hover > .image-item-about > img {
+  filter: invert(25%) sepia(56%) saturate(779%) hue-rotate(336deg)
+    brightness(104%) contrast(101%);
+}
+.about-list-2 {
+  margin-top: 80px;
+  display: none;
+}
+@media only screen and (max-width: 913px) {
+  .about-list-2 {
+    display: block;
+  }
+  .about-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .swiper-container {
+    width: 500px;
+  }
+}

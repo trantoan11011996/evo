@@ -1,0 +1,98 @@
+:root {
+  --color: rgba(255, 185, 40, 1);
+}
+.container-header {
+  background: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.list-content-header {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.item > span {
+  line-height: 50px;
+  font-size: 23px;
+  font-weight: 300 !important;
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+}
+.item > span::after {
+  position: absolute;
+  content: "";
+  background-color: var(--color);
+  height: 3px;
+  width: 100%;
+  top: 42px;
+  left: 0px;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.item > span:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.item-lang {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  position: relative;
+}
+.item-lang::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 50px;
+  top: 5px;
+  left: -5px;
+}
+.lang {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.item-lang:hover > .select-lang {
+  display: block;
+}
+
+.select-lang {
+  position: absolute;
+  width: 50px;
+  top: 25px;
+  width: 150px;
+  padding: 5px 0;
+  background-color: white;
+  z-index: 3;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: none;
+}
+.lang-item {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+  padding: 8px 15px;
+}
+.lang-item > p {
+  color: black;
+}
+.lang-item > img {
+  height: 20px;
+  width: 20px;
+}

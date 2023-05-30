@@ -1,299 +1,300 @@
 {
-    "header": {
-      "title": "CÔNG TY CỔ PHẦN CÔNG NGHỆ EVOSOLUTION",
-      "paragraph": "Chúng tôi mang đến nhiều giải pháp công nghệ nhằm giải quyết các nhu cầu của doanh nghiệp.",
-      "contact" : "Liên hệ ngay"
+  "header": {
+    "title": "CÔNG TY CỔ PHẦN CÔNG NGHỆ EVOSOLUTION",
+    "paragraph": "Chúng tôi mang đến nhiều giải pháp công nghệ nhằm giải quyết các nhu cầu của doanh nghiệp.",
+    "contact": "Liên hệ ngay"
+  },
+  "sidebar": {
+    "homepage": {
+      "title": "Trang chủ",
+      "link": "homepage"
     },
-    "sidebar" : {
-      "homepage" :{
-          "title"  :"Trang chủ",
-          "link" : "homepage"
+    "listSidebar": {
+      "service": {
+        "title": "Dịch vụ",
+        "link": "features"
       },
-      "content" :[
-        {
-          "title" : "Dịch vụ",
-          "link" : "features"
-        },
-        {
-          "title": "Dự án",
-          "link" :"project"
-        },
-        {
-          "title" : "Công nghệ",
-          "link" :"technology"
-        },
-        {
-          "title" : "khách hàng",
-          "link" : "partner"
-        },
-        {
-          "title" :"Liên hệ",
-          "link" : "contact"
-        }
-      ],
-      "paragraph" : "EvoSolution thành lập từ năm 2016 với đội ngũ nhân viên là các kỹ sư công nghệ trẻ, năng động và giàu kinh nghiệm.",
-      "profile" : "Hồ sơ năng lực"
-    },
-    "footer" : {
-      "title" : "Liên hệ với chúng tôi",
-      "form_contact": {
-          "address" : {
-            "label" : "Văn phòng làm việc",
-            "content" :"Tầng 4, 292 Ung Văn Khiêm, phường 25 , quận Bình Thạnh, thành phố Hồ Chí Minh.",
-            "map" : "Mở bằng Google map"
-          },
-          "email" :{
-            "label" : "Email",
-            "content" : ""
-          },
-          "phone" :{
-            "label" : "Số điện thoại",
-            "content" : "0979 593 585"
-          },
-          "work_hours" : {
-            "label" : "Thời gian làm việc",
-            "content" : "8:30 sáng - 18:00 chiều từ thứ 2 đến thứ 6"
-          }     
+      "project": {
+        "title": "Dự án",
+        "link": "project"
       },
-      "placeholder"  : {
-        "name" :{
-          "content" : "Họ và tên"
-        },
-        "email" : {
-          "content" : "Email"
-        },
-        "phone" :{
-          "content" : "Số điện thoại"
-        },
-        "message" : {
-          "content": "Tin nhắn"
-        }
+      "technology": {
+        "title": "Công nghệ",
+        "link": "techno"
       },
-      "submit" :{
-        "content" : "Gửi tin nhắn"
+      "client": {
+        "title": "Khách hàng",
+        "link": "partner"
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "link": "contact"
       }
     },
-    "features" :{
-      "title" : "Dịch vụ cung cấp",
-      "paragraph" : "Với lợi thế nhiều năm kinh nghiệm trong lĩnh vực công nghệ, chúng tôi luôn mang đến nhiều giải pháp công nghệ nhằm giải quyết các nhu cầu của doanh nghiệp",
-      "titleCard" : [
-        {
-          "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-363-1-1.svg",
-          "title" : "Thiết kế Website",
-          "description" : "Tư vấn xây dựng website chuyên nghiệp theo yêu cầu của doanh nghiệp."
-        },
-        {
-          "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-365-1-1.svg",
-          "title" : "Thiết kế ứng dụng mobile",
-          "description" : "Xây dựng ứng dụng cho nhiều lĩnh vực trên các nền tảng di động, từ native (Android/ iOS) đến đa nền tảng sử dụng công nghệ (React Native, Flutter)."
-        },
-        {
-          "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-367-1-1.svg",
-          "title" : "Tư vấn giải pháp công nghệ",
-          "description" : "Tư vấn cho doanh nghiệp các giải pháp ứng dụng công nghệ 4.0 vào quá trình điều hành và hoạt động."
-        },
-        {
-          "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-369-1-1.svg",
-          "title" : "Triển khai hệ thống server",
-          "description" : "Tư vấn xây dựng website chuyên nghiệp theo yêu cầu của doanh nghiệp."
-        },
-        {
-          "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-371-1-1.svg",
-          "title" : "Tư vấn hạ tầng mạng",
-          "description" : "Tư vấn giải pháp hạ tầng mạng cho doanh nghiệp, kết nối từ xa VPN site-to-site, SSL - VPN, bảo mật firewall, hệ thống wifi cloud,..."
-        }
-      ]
-    },
-    "about": {
-      "title" : "Về chúng tôi",
-      "paragraph": "Thành lập từ năm 2016 với đội ngũ nhân viên là các kỹ sư công nghệ trẻ, năng động và giàu kinh nghiệm. Tại EvoSolution, chúng tôi chuyên cung cấp các dịch vụ và giải pháp công nghệ mới cho các doanh nghiệp thuộc nhiều lĩnh vực.",
-      "icon_title":{
-        "title1" : "Vì khách hàng",
-        "title2" : "Nhiệt huyết",
-        "title3" : "Nhiệt huyết",
-        "title4" : "Sáng tạo",
-        "title5" : "Trách nhiệm"
+    "paragraph": "EvoSolution thành lập từ năm 2016 với đội ngũ nhân viên là các kỹ sư công nghệ trẻ, năng động và giàu kinh nghiệm.",
+    "profile": "Hồ sơ năng lực"
+  },
+  "footer": {
+    "title": "Liên hệ với chúng tôi",
+    "form_contact": {
+      "address": {
+        "label": "Văn phòng làm việc",
+        "content": "Tầng 4, 292 Ung Văn Khiêm, phường 25 , quận Bình Thạnh, thành phố Hồ Chí Minh.",
+        "map": "Mở bằng Google map"
       },
-      "about_list": [
-        {
-          "title" : "Vì khách hàng",
-          "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-350-1-1.svg"
-        },
-        {
-          "title" : "Nhiệt huyết",
-          "icon"  :"https://evosolution.vn/wp-content/uploads/2021/04/Group-349-1-1.svg"
-        },
-        {
-          "title"  :"Teamwork",
-          "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-351-1-1.svg"
-        },
-        {
-          "title" : "Sáng tạo",
-          "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-353-1-1.svg" 
-        },
-        {
-          "title" : "Trách nhiệm",
-          "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-352-1-1.svg"
-        }
-      ]
-    },
-    "project": {
-      "title" : "Các dự án đã bàn giao",
-      "paragraph" : "Chúng tôi luôn làm việc với tinh thần trách nhiệm cao nhất, luôn gắn trách nhiệm của từng cá nhân trên mọi công việc hằng ngày. Từ đó cam kết chất lượng với từng sản phẩm và dịch vụ mà công ty cung cấp, đảm bảo được những quyền lợi của khách hàng một cách hợp lý nhất.",
-      "project_list" : [{
-        "linkProject" : "https://era.edu.vn/",
-        "imageProject": "../evosolution/img/project_company/project1.svg",
-        "titleProject": "Giáo dục giới tính ERA",
-        "descProject": "Hệ thống giáo dục giới tính cho trẻ, cập nhật thông tin,kỹ năng giáo dục giới tính trẻ cho gia đình và nhà trường."
+      "email": {
+        "label": "Email",
+        "content": ""
       },
-      {
-        "linkProject" : "https://testuru.com/",
-        "imageProject": "../evosolution/img/project_company/project2.svg",
-        "titleProject": "Thi thử IELTS online TESTURU",
-        "descProject": "Hệ thống thi thử và ôn luyện IELTS trực tuyến"
+      "phone": {
+        "label": "Số điện thoại",
+        "content": "0979 593 585"
       },
-      {
-        "linkProject" : "",
-        "imageProject": "../evosolution/img/project_company/project3.svg",
-        "titleProject": "Chấm công BWORK",
-        "descProject": "Ứng dụng chấm công cho doanh nghiệp, quản lý giờ đi làm, giờ trễ từ đó tính tổng lương cho nhân viên."
-      },
-      {
-        "linkProject" : "",
-        "imageProject": "../evosolution/img/project_company/project4.svg",
-        "titleProject": "Mạng xã hội du lịch JOCO",
-        "descProject": "Mạng xã hội chia sẻ thông tin du lịch: điểm đến, kinh nghiệm du lịch, tour, nhà hàng, khách sạn."
-      },
-      {
-        "linkProject" : "",
-        "imageProject": "../evosolution/img/project_company/project5.svg",
-        "titleProject": "Takamart",
-        "descProject": "Ứng dụng mua bán rao vặt, cho phép người mua và người bán kết nối và giao dịch online."
-      },
-      {
-        "linkProject" : "",
-        "imageProject": "../evosolution/img/project_company/project6.svg",
-        "titleProject": "Chợ Phú Quốc",
-        "descProject": "Ứng dụng mua bán, rao vặt trực tuyến được phát triển dành riêng cho người dân sinh sống và làm việc tại Phú Quốc."
-      }]
-    },
-    "technology" : {
-      "title" : "Công nghệ sử dụng",
-      "paragraph" : "Các thành viên EvoSolution luôn không ngừng tư duy, học hỏi công nghệ mới và sẵn sàng đón nhận cơ hội để trau dồi thêm nhiều kỹ năng và kinh nghiệm. Khao khát sáng tạo luôn luôn hiện hữu trong mọi thành viên tại EvoSolution.",
-      "techno_icon" :[
-        {
-          "icon" : "../evosolution/img/techno_icon/postgresql-icon.png",
-          "title" : "PostgreSQL"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/java-icon.png",
-          "title" : "Java"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/nodejs-icon.png",
-          "title" : "Nodejs"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/php.png",
-          "title" : "PHP"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/laravel.png",
-          "title" : "Laravel"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/docker-icon.png",
-          "title" : "Docker"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/reactjs-icon.png",
-          "title" : "React Native"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/flutterio-icon.png",
-          "title" : "Flutter"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/ios-icon.png",
-          "title" : "iOS"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/android-icon.png",
-          "title" : "Android"
-        },
-        {
-          "icon" : "../evosolution/img/techno_icon/vuejs-icon.png",
-          "title" : "Vuejs"
-        },
-        {
-          "title" : "WordPress",
-          "icon" : "../evosolution/img/techno_icon/wordpress-icon.png"
-        }
-      ]
-    },
-    "partner" : {
-      "title" : "Khách hàng của chúng tôi",
-      "paragraph" : "Chúng tôi luôn lấy mục tiêu và đích đến cuối cùng là khách hàng. Vì thế việc bảo đảm và thực hiện cam kết với khách hàng luôn là mục tiêu hàng đầu với chúng tôi.",
-      "list_partner" :[
-          {
-            "image" : "../evosolution/img/company/logo-vihatt.png",
-            "class" : "vihat"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-joca.png",
-            "class" : "joca"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-trobz.png",
-            "class" : "trobz"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-viettel.png",
-            "class" : "viettel"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-testuru.png",
-            "class" : "testuru"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-takamart.png",
-            "class" : "takamart"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-315.png",
-            "class" : "hopistal"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-mobi.png",
-            "class"  : "mobifone"
-          }
-         
-      ]
-    },
-    "formValidation" : {
-      "fullname" : {
-        "required" : "Đây là trường bắt buộc",
-        "minLength" : "Tên của bạn ít nhất 2 ký tự"
-      },
-      "email" : {
-        "required" : "Đây là trường bắt buộc",
-        "pattern" : "Hãy điền đúng định dạng email"
-      },
-      "phoneNumber" : {
-        "required" : "Đây là trường bắt buộc",
-        "pattern" : "Số điện thoại phải bắt đầu với 03,07,08,05...",
-        "minLength" : "Số điện thoại chỉ bao gồm 10 kí tự",
-        "maxLength" : "Số điện thoại chỉ bao gồm 10 kí tự"
+      "work_hours": {
+        "label": "Thời gian làm việc",
+        "content": "8:30 sáng - 18:00 chiều, thứ 2 đến thứ 6"
       }
     },
-    "notify" : {
-      "success" : "Thông tin của bạn đã được gởi đi thành công !",
-      "fail" : "Thông tin của bạn chưa được gởi đi thành công, xin hay thử lại !"
+    "placeholder": {
+      "name": {
+        "content": "Họ và tên"
+      },
+      "email": {
+        "content": "Email"
+      },
+      "phone": {
+        "content": "Số điện thoại"
+      },
+      "message": {
+        "content": "Tin nhắn"
+      }
     },
-    "btnAction" : {
-      "close" : "Đóng",
-      "confirm" : "Xác hận",
-      "back" : "Quay lại"
+    "submit": {
+      "content": "Gửi tin nhắn"
     }
-  }
-  
+  },
+  "features": {
+    "title": "Dịch vụ cung cấp",
+    "paragraph": "Với lợi thế nhiều năm kinh nghiệm trong lĩnh vực công nghệ, chúng tôi luôn mang đến nhiều giải pháp công nghệ nhằm giải quyết các nhu cầu của doanh nghiệp",
+    "featuresList": {
+      "website": {
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-363-1-1.svg",
+        "title": "Thiết kế Website",
+        "description": "Tư vấn xây dựng website chuyên nghiệp theo yêu cầu của doanh nghiệp."
+      },
+      "mobile": {
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-365-1-1.svg",
+        "title": "Thiết kế ứng dụng mobile",
+        "description": "Xây dựng ứng dụng cho nhiều lĩnh vực trên các nền tảng di động, từ native (Android/ iOS) đến đa nền tảng sử dụng công nghệ (React Native, Flutter)."
+      },
+      "consulting": {
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-365-1-1.svg",
+        "title": "Thiết kế ứng dụng mobile",
+        "description": "Xây dựng ứng dụng cho nhiều lĩnh vực trên các nền tảng di động, từ native (Android/ iOS) đến đa nền tảng sử dụng công nghệ (React Native, Flutter)."
+      },
+      "deploy": {
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-369-1-1.svg",
+        "title": "Triển khai hệ thống server",
+        "description": "Tư vấn xây dựng website chuyên nghiệp theo yêu cầu của doanh nghiệp."
+      },
+      "network": {
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-371-1-1.svg",
+        "title": "Tư vấn hạ tầng mạng",
+        "description": "Tư vấn giải pháp hạ tầng mạng cho doanh nghiệp, kết nối từ xa VPN site-to-site, SSL - VPN, bảo mật firewall, hệ thống wifi cloud,..."
+      }
+    }
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "paragraph": "Thành lập từ năm 2016 với đội ngũ nhân viên là các kỹ sư công nghệ trẻ, năng động và giàu kinh nghiệm. Tại EvoSolution, chúng tôi chuyên cung cấp các dịch vụ và giải pháp công nghệ mới cho các doanh nghiệp thuộc nhiều lĩnh vực.",
+    "icon_title": {
+      "title1": "Vì khách hàng",
+      "title2": "Nhiệt huyết",
+      "title3": "Nhiệt huyết",
+      "title4": "Sáng tạo",
+      "title5": "Trách nhiệm"
+    },
+    "aboutList": {
+      "customer": {
+        "label": "Vì khách hàng",
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-350-1-1.svg"
+      },
+      "ethusiasm": {
+        "label": "Nhiệt huyết",
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-349-1-1.svg"
+      },
+      "team": {
+        "label": "Teamwork",
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-351-1-1.svg"
+      },
+      "creative": {
+        "label": "Sáng tạo",
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-353-1-1.svg"
+      },
+      "responsibility": {
+        "label": "Trách nhiệm",
+        "image": "https://evosolution.vn/wp-content/uploads/2021/04/Group-352-1-1.svg"
+      }
+    }
+  },
+  "project": {
+    "title": "Dự án tiêu biểu",
+    "paragraph": "Chúng tôi luôn làm việc với tinh thần trách nhiệm cao nhất, luôn gắn trách nhiệm của từng cá nhân trên mọi công việc hằng ngày. Từ đó cam kết chất lượng với từng sản phẩm và dịch vụ mà công ty cung cấp, đảm bảo được những quyền lợi của khách hàng một cách hợp lý nhất.",
+    "projectList": {
+      "era": {
+        "link": "https://era.edu.vn/",
+        "image": "images/project/project_{{id}}.png",
+        "title": "ERA . Sex Education",
+        "desc": "Sex education system for children, updating information and skills for young sex education for families and schools."
+      },
+      "itels": {
+        "link": "https://testuru.com/",
+        "image": "images/project/project_{{id}}.png",
+        "title": "IELTS mock test online TESTURU",
+        "desc": "Online IELTS practice test and preparation system"
+      },
+      "timekeeping": {
+        "link": "",
+        "image": "images/project/project_{{id}}.png",
+        "title": "Timekeeping BWORK",
+        "desc": "Time attendance application for businesses, manage working hours, late hours from which to calculate the total salary for employees."
+      },
+      "joco": {
+        "link": "",
+        "image": "images/project/project_{{id}}.png",
+        "title": "JOCO travel social network",
+        "desc": "Social network to share travel information: destinations, travel experiences, tours, restaurants, hotels."
+      },
+      "takamart": {
+        "link": "",
+        "image": "images/project/project_{{id}}.png",
+        "title": "Takamart",
+        "desc": "App for buying and selling classifieds, allowing buyers and sellers to connect and transact online."
+      },
+      "phuquoc": {
+        "link": "",
+        "image": "images/project/project_{{id}}.png",
+        "title": "Phu Quoc Market",
+        "desc": "Online shopping and classifieds application developed exclusively for people living and working in Phu Quoc."
+      }
+    }
+  },
+  "technology": {
+    "title": "Công nghệ sử dụng",
+    "paragraph": "Các thành viên EvoSolution luôn không ngừng tư duy, học hỏi công nghệ mới và sẵn sàng đón nhận cơ hội để trau dồi thêm nhiều kỹ năng và kinh nghiệm. Khao khát sáng tạo luôn luôn hiện hữu trong mọi thành viên tại EvoSolution.",
+    "technoIconList": {
+      "postgresql": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "PostgreSQL"
+      },
+      "java": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Java"
+      },
+      "nodejs": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Nodejs"
+      },
+      "php": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "PHP"
+      },
+      "laravel": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Laravel"
+      },
+      "docker": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Docker"
+      },
+      "react": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "React Native"
+      },
+      "flutter": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Flutter"
+      },
+      "ios": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "iOS"
+      },
+      "android": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Android"
+      },
+      "vuejs": {
+        "image": "images/techno_icon/techno_{{id}}.png",
+        "label": "Vuejs"
+      },
+      "wordpress": {
+        "label": "WordPress",
+        "image": "images/techno_icon/techno_{{id}}.png"
+      }
+    }
+  },
+  "partner": {
+    "title": "Khách hàng",
+    "paragraph": "Chúng tôi luôn lấy mục tiêu và đích đến cuối cùng là khách hàng. Vì thế việc bảo đảm và thực hiện cam kết với khách hàng luôn là mục tiêu hàng đầu với chúng tôi.",
+    "partnerList": {
+      "vihat": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "vihat"
+      },
+      "joca": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "joca"
+      },
+      "trobz": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "trobz"
+      },
+      "viettel": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "viettel"
+      },
+      "testuru": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "testuru"
+      },
+      "takamart": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "takamart"
+      },
+      "hospital": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "hopistal"
+      },
+      "mobi": {
+        "image": "images/company/company_{{id}}.png",
+        "class": "mobifone"
+      }
+    }
+  },
+  "formValidation": {
+    "fullname": {
+      "required": "Đây là trường bắt buộc",
+      "minLength": "Tên của bạn ít nhất 2 ký tự"
+    },
+    "email": {
+      "required": "Đây là trường bắt buộc",
+      "pattern": "Hãy điền đúng định dạng email"
+    },
+    "phoneNumber": {
+      "required": "Đây là trường bắt buộc",
+      "pattern": "Số điện thoại phải bắt đầu với 03,07,08,05...",
+      "minLength": "Số điện thoại chỉ bao gồm 10 kí tự",
+      "maxLength": "Số điện thoại chỉ bao gồm 10 kí tự"
+    }
+  },
+  "notify": {
+    "success": "Thông tin của bạn đã được gởi đi thành công !",
+    "fail": "Thông tin của bạn chưa được gởi đi thành công, xin hay thử lại !"
+  },
+  "btnAction": {
+    "close": "Đóng",
+    "confirm": "Xác hận",
+    "back": "Quay lại"
+  },
+  "image": "images/company_1.png"
+}
