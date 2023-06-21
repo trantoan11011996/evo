@@ -15,6 +15,8 @@ function Header() {
     let langLocal: any = localStorage.getItem("lang");
     setLang(langLocal);
   }, []);
+
+ 
   const scrollToElement = (elementID: string) => {
     const element: any = document.getElementById(elementID);
     const offsetTop = element?.offsetTop;

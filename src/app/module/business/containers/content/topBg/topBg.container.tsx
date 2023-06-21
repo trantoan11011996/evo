@@ -1,9 +1,12 @@
 import React, { Fragment } from "react";
 import TopBgComponent from "../../../components/content/topBg/topBg.component";
-function TopBgContainer() {
+export interface Props {
+  openSidebar: any;
+}
+function TopBgContainer({ openSidebar }: any) {
   return (
     <Fragment>
-      <TopBgComponent />
+      <TopBgComponent openSidebar={openSidebar} />
     </Fragment>
   );
 }

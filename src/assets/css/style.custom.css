@@ -10,8 +10,8 @@
 }
 .desc-element {
   max-width: 730px;
-  height: 52px;
-  margin: 20px auto 0 auto;
+  height: fit-content;
+  margin: 20px auto 10px auto;
 }
 .header-element > h1 {
   font-size: 40px;
@@ -32,7 +32,7 @@
   height: 5px;
   width: 100px;
   background-color: var(--bg-color);
-  margin: 30px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 ::placeholder {
   font-family: "SVN-Gilroy";

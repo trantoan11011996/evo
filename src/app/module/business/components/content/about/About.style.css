@@ -36,9 +36,6 @@
   font-weight: 700;
   text-align: center;
 }
-.bottom-about {
-  margin-top: 60px;
-}
 .image-item-about > img {
 }
 .item-about:hover > .image-item-about > img {
@@ -62,4 +59,39 @@
   .swiper-container {
     width: 500px;
   }
+}
+
+.profile-about {
+  width: 232px;
+  height: 60px;
+  background: linear-gradient(100.54deg, #ffb928 0%, #fecf36 100%);
+  border-radius: 30px;
+}
+.profile-about {
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.profile-about > a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.profile-about > a > span {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.profile-about > a > .download {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
 }

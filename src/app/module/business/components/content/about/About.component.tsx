@@ -10,6 +10,7 @@ import {
 } from "../../../../../shared/constant/animation.constant";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import { BsDownload } from "react-icons/bs";
 import "swiper/css";
 import "swiper/css/pagination";
 function AboutComponent() {
@@ -88,6 +89,16 @@ function AboutComponent() {
             );
           })}
         </Swiper>
+      </div>
+      <div className="profile-about">
+        <a
+          className="link_profile"
+          href="https://evosolution.vn/wp-content/uploads/2021/04/ho-so-vi.pdf"
+          target="_blank"
+        >
+          <span>{t("sidebar.profile")}</span>
+          <BsDownload className="download"></BsDownload>
+        </a>
       </div>
     </div>
   );

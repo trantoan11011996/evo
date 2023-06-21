@@ -6,11 +6,13 @@ import AboutContainer from "../containers/content/about/About.container";
 import ProjectContainer from "../containers/content/project/Project.container";
 import TechnologyContainer from "../containers/content/technology/Technology.container";
 import PartnerContainer from "../containers/content/partner/Partner.container";
-
-function HomePageComponent() {
+export interface Props {
+  openSidebar: any;
+}
+function HomePageComponent({ openSidebar }: any) {
   return (
     <div className="home-container">
-      <TopBgContainer />
+      <TopBgContainer openSidebar={openSidebar} />
       <FeaturesContainer />
       <AboutContainer />
       <ProjectContainer />

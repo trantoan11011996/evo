@@ -1,13 +1,12 @@
 .container-partner {
-  height: 724px;
+  height: fit-content;
   background-color: #f2f2f2;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .desc-element-partner {
 }
-.bottom-partner {
-  margin-top: 60px;
-}
+
 .partner-list {
   max-width: 1200px;
   display: flex;

@@ -55,3 +55,22 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+@media only screen and (max-width: 1140px) {
+  .footer-container {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .container-content-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+    max-width: 700px;
+  }
+  .footer-form {
+    width: 100%;
+  }
+  .footer-contact {
+    width: 100%;
+  }
+}

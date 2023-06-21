@@ -1,0 +1,130 @@
+:root {
+  --color: rgba(255, 185, 40, 1);
+}
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  right: 0;
+  z-index: 3;
+  background-color: black;
+  padding: 0 40px;
+  transform: translateX(100%);
+  transition: all 0.3s ease-in;
+}
+.sidebar-slidein {
+  transform: translateX(0) !important;
+  transition: all 0.3s ease-in;
+}
+
+.sidebar-content-container {
+  margin-top: 43px;
+}
+.sidebar-header-menu {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.4);
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-sidebar {
+  cursor: pointer;
+}
+.close-sidebar > .icon-close {
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+.sidebar-content-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.item-sidebar {
+  width: 100%;
+  text-align: left;
+}
+/* .item-sidebar:first-child {
+  color: var(--color) !important;
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+} */
+.sidebar-content-title {
+  color: var(--color) !important;
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+}
+.item-sidebar:not(:first-child) {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.select-language {
+  margin-top: 47px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  width: 153px;
+  border-radius: 5px;
+}
+:where(.css-dev-only-do-not-override-1wazalj).ant-select:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  background-color: black !important;
+  border: none !important;
+}
+.ant-select-selection-item {
+  color: white !important;
+}
+.ant-select-arrow {
+  color: white !important;
+  margin-left: 30px;
+}
+.anticon-down > svg {
+  height: 20px;
+  width: 20px;
+}
+.sidebar-description {
+  margin-top: 20px;
+}
+.sidebar-description > span {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.profile {
+  margin-top: 20px;
+}
+.link_profile > span {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 400;
+  color: var(--color);
+  text-decoration: underline var(--color);
+}
+.link_profile > .download {
+  font-size: 18px;
+  margin-left: 9px;
+  color: var(--color);
+}

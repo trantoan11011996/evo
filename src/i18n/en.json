@@ -18,6 +18,10 @@
         "title": "Project",
         "link": "project"
       },
+      "about": {
+        "title": "About Us",
+        "link": "about"
+      },
       "technology": {
         "title": "Technology",
         "link": "techno"

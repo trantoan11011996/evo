@@ -17,6 +17,10 @@ export const SideBarList: ISidebar[] = [
     link: "sidebar.listSidebar.project.link",
   },
   {
+    title: "sidebar.listSidebar.about.title",
+    link: "sidebar.listSidebar.about.link",
+  },
+  {
     title: "sidebar.listSidebar.technology.title",
     link: "sidebar.listSidebar.technology.link",
   },

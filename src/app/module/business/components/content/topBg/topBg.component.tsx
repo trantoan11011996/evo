@@ -4,15 +4,23 @@ import PracticleBg from "../../../../../shared/components/animation/practicleBg"
 import { Link } from "react-router-dom";
 import { logo } from "../../../../../shared/constant/app.constant";
 import { useTranslation } from "react-i18next";
-function TopBgComponent() {
+export interface Props {
+  openSidebar: any;
+}
+function TopBgComponent({ openSidebar }: Props) {
   const { t } = useTranslation();
+
+  const handleOpenSideBar = () => {
+    openSidebar();
+  };
+
   return (
     <div id="top-bg" className="topBg-container">
       <div className="logo-topBg">
         <Link className="link-logo" to={"/"}>
           <img src={logo}></img>
         </Link>
-        <div className="toggle-sidebar">
+        <div className="toggle-sidebar" onClick={() => handleOpenSideBar()}>
           <div className="dash"></div>
           <div className="dash"></div>
           <div className="dash"></div>
